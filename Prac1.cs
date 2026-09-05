@@ -1,5 +1,19 @@
 using System.IO.Pipes;
 
+class multiclass
+{
+    int g;
+    int y;
+
+    public int gg(int c, int b)
+    {
+        g=c;
+        y=b;
+
+        int hh=g*b;
+        return hh;
+    }
+}
 class Sumclass
 {
     public int a;
@@ -11,8 +25,12 @@ class Sumclass
          Console.WriteLine("Enter two integer:");
          a=int.Parse(Console.ReadLine());
          b=int.Parse(Console.ReadLine());
+         multiclass df= new multiclass();
+         int kk=df.gg(a,b);
+         Console.WriteLine(kk);
          int y=a+b;
          return y;
+         
     }
 
 }
