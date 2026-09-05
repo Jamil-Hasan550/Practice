@@ -26,5 +26,6 @@ class MainClass
         Sumclass a= new Sumclass();
         int h=a.addmethod();
         Console.WriteLine(h);
+        Console.WriteLine("Ami korte parchi mone hoy");
     }
 }
